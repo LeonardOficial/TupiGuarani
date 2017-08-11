@@ -1,0 +1,32 @@
+
+.cultura .text-holder {
+  height: 400px;
+  margin-left: 6.5%;
+  margin-top: -20px;
+  padding: 5px 0px;
+  width: 86%;
+}
+.cultura .text-holder p {
+  border-top: 6px solid white;
+  font-size: 17px;
+  overflow: hidden;
+  text-align: center;
+  padding: 5px;
+}
+.cultura .text-holder p::first-letter {
+  border: 1px solid white;
+  border-top: none;
+  font-size: 30px;
+  padding: 4px;
+}
+.cultura .text-holder h1 {
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 65px;
+  height: 20px;
+  padding-bottom: 18px;
+  text-align: center;
+  width: 100%;
+}
+
+

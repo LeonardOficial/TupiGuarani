@@ -1,0 +1,60 @@
+.vivencia img {
+  border: 1px solid white;
+  border-radius: 100%;
+  height: 90px;
+  width: 90px;
+}
+.vivencia .center {
+  height: 180px;
+  margin-left: 15%;
+  margin-top: 180px;
+  width: 180px;
+  position: relative;
+}
+.vivencia .rotate {
+  height: 400px;
+  margin-left: 80px;
+  margin-top: -280px;
+  width: 31%;
+}
+.vivencia .rotate div {
+ /* border: 1px solid red;*/
+  height: 220px;
+  margin-left: 11.5%;
+  margin-top: -30px;
+  position: absolute;
+  transform-origin: bottom;
+  width: 90px;
+}
+
+.vivencia .text-holder {
+ /* border: 1px solid red;*/
+  float: right;
+  height: 400px;
+  margin-right: 4%;
+  margin-top: -510px;
+  padding: 5px 20px;
+  width: 45%;
+}
+.vivencia .text-holder p {
+  border-top: 6px solid white;
+  font-size: 20px;
+  overflow: hidden;
+  text-align: center;
+  padding: 5px;
+}
+.vivencia .text-holder p::first-letter {
+  border: 1px solid white;
+  border-top: none;
+  font-size: 30px;
+  padding: 4px;
+}
+.vivencia .text-holder h1 {
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 55px;
+  height: 20px;
+  padding-bottom: 18px;
+  text-align: center;
+  width: 100%;
+}

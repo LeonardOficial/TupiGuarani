@@ -1,0 +1,38 @@
+.fontes h1 {
+  background-color: rgba(255, 255, 255, .2);
+  border: 2px solid white;
+  border-left: none;
+  border-right: none;
+  float: right;
+  font-family: cursive;
+  font-size: 64px;
+  font-weight: bold;
+  height: 100px;
+  line-height: 100px;
+  margin-top: -4px;
+  text-align: center;
+  text-shadow: 0px 4px 16px black;
+  width: 100%;
+}
+.fontes .text-holder {
+  background-color: rgba(255, 255, 255, .05);
+  border-top: 2px solid white;
+  float: right;
+  height: 400px;
+  margin-left: 2.5%;
+  margin-top: 35px;
+  padding-top: 10px;
+  width: 100%;
+  z-index: -1;
+}
+.fontes .text-holder span {
+  display: inline-block;
+  font-size: 24px;
+  margin-top: 28px;
+  padding-left: 20px;
+}
+
+
+
+
+

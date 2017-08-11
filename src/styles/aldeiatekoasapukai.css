@@ -1,0 +1,49 @@
+.aldeia img {
+  border: 4px solid white;
+  border-radius: 50%;
+  height: 100px;
+  margin-left: calc(50% - 54px);
+  margin-top: -495px;
+  float: left;
+  width: 100px;
+  z-index: 1000;
+}
+.aldeia h1 {
+  background-color: rgba(255, 255, 255, .2);
+  border: 2px solid white;
+  border-left: none;
+  border-right: none;
+  float: right;
+  font-family: cursive;
+  font-size: 64px;
+  font-weight: bold;
+  height: 100px;
+  line-height: 100px;
+  margin-top: -4px;
+  text-align: center;
+  text-shadow: 0px 4px 16px black;
+  width: 100%;
+}
+.aldeia .text-holder {
+  background-color: rgba(255, 255, 255, .05);
+  border-top: 2px solid white;
+  float: right;
+  height: 400px;
+  margin-left: 2.5%;
+  margin-top: 35px;
+  text-align: center;
+  width: 100%;
+}
+.aldeia .text-holder p {
+  font-size: 24px;
+  height: 100px;
+  margin: 0px;
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+
+
+

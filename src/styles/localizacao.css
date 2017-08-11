@@ -1,0 +1,41 @@
+.localizacao img {
+  border: 1px solid white;
+  border-radius: 100%;
+  height: 150px;
+  margin: 10px 0px;
+  margin-bottom: -5px;
+  margin-left: calc(50% - 75px);
+  width: 150px;
+}
+.localizacao .text-holder {
+  height: 400px;
+  margin-left: 5%;
+  margin-top: 0px;
+  padding: 10px;
+  width: 85%;
+}
+.localizacao .text-holder h1 {
+  font-family: cursive;
+  font-size: 64px;
+  font-weight: bold;
+  height: 100px;
+  line-height: 100px;
+  margin: 0px;
+  text-align: center;
+  width: 100%;
+}
+.localizacao .text-holder p {
+  display: inline-block;
+  font-size: 23px;
+  height: 100px;
+  margin: 0px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+
+
+
+
+
