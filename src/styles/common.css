@@ -1,60 +1,36 @@
-/*
-svg text { 
-  animation: anima 6s linear;
-  font-size: 25px;
-  paint-order: stroke;
-  stroke: red;
-  stroke-width: 2px;
-  fill: transparent;
-  stroke-dashoffset: 1000;
-  stroke-dasharray: 1000;
-}*/
+body, html { height: 100%; }
 
 .section-holder {
-  height: 600px;
+  background-size: 100% 100%;
+  height: 100%;
   margin: -8px;
   overflow: hidden;
   position: absolute;
   width: 100%;
 }
 
-.section-holder #react-root {
-  color: white;
-  height: 400px;
-  margin-top: -600px;
-  position: absolute;
-  width: 100%;
-}
-
-.section-holder #apres img {
-  box-shadow: 0px 6px 16px -6px black;
-  height: 320px;
-  margin-left: 6%;
-  margin-top: 30px;
-  width: 36%;
-}
-
-.section-holder > img {
-  background-size: 100%;
-  filter: blur(2px);
-  height: 100%;
-  margin: 0px;
-  width: 100%;
-}
 .section-holder #opac-wall {
   background-color: black;
   height: 100%;
-  margin-top: -605px;
   opacity: 0.7;
   position: absolute;
   width: 100%;
+  z-index: 100;
+}
+
+.section-holder #react-root {
+  color: white;
+  height: 50%;
+  position: relative;
+  width: 100%;
+  z-index: 120;
 }
 
 .section-holder #menu {
-  height:  600px;
-  margin-top: -608px;
-  position: absolute;
+  height:  50%;
+  margin-top: -5%;
   width: 100%;
+  z-index: 120;
 }
 
 .section-holder #menu img {
@@ -81,7 +57,7 @@ svg text {
   text-align: center;
   transform-origin: bottom;
   width: 170px;
-  z-index: 50;
+  z-index: 150;
 }
 .section-holder .trapezoid p {
   font-size: 20px;
@@ -99,7 +75,7 @@ svg text {
   height: 0px;
   opacity: 0.9;
   width: 100px;
-  z-index: 50;
+  z-index: 150;
 }
 
 

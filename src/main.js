@@ -28,7 +28,7 @@ const menu     = document.querySelector("#menu");
 const holders  = document.querySelectorAll(".trapezoid");
 const options  = document.querySelectorAll(".trapezoid > div");
 const tags     = document.querySelectorAll(".trapezoid > p");
-const imgWall  = document.querySelector(".section-holder > img");
+const imgWall  = document.querySelector(".section-holder");
 const opacWall = document.querySelector(".section-holder > #opac-wall");
 
 
@@ -46,11 +46,11 @@ for(let i=0, l=options.length; i<l; i++) {
       TweenMax.to(options, 0.4, {
         opacity: 0.7,
         scale: 1,
-        zIndex: 100
+        zIndex: 160
       });
       
       TweenMax.set(holders, {
-        zIndex: 50
+        zIndex: 160
       });
       
       TweenMax.set(tags, {
@@ -58,7 +58,8 @@ for(let i=0, l=options.length; i<l; i++) {
       });
       
       TweenMax.to(menu, .4, {
-        y: "430px"
+        y: "430px",
+        position: "relative"
       });
     
       TweenMax.to(menu, .6, {
@@ -69,7 +70,8 @@ for(let i=0, l=options.length; i<l; i++) {
       TweenMax.to(opt, .2, {
         ease: Power1.easeOut,
         opacity: 1,
-        scale: 1.2
+        scale: 1.2,
+        zIndex: 100
       });
       
       TweenMax.set(hol, {
@@ -83,7 +85,7 @@ for(let i=0, l=options.length; i<l; i++) {
         opacity: 1,
         onComplete: function() {
           TweenMax.set(imgWall, {
-            src: "./imgs/" + optsSrc[i].src,
+            backgroundImage: "url(./imgs/" + optsSrc[i].src + ")",
             onComplete: function() {
               hashHistory.push(optsSrc[i].route);
               TweenMax.to(opacWall, .2, {
